@@ -13,6 +13,7 @@
 		0E90136F24371EDA004E9C20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E90136E24371EDA004E9C20 /* Assets.xcassets */; };
 		0E90137224371EDA004E9C20 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E90137124371EDA004E9C20 /* Preview Assets.xcassets */; };
 		0E90137524371EDA004E9C20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E90137324371EDA004E9C20 /* LaunchScreen.storyboard */; };
+		0E90137D24373D77004E9C20 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E90137C24373D77004E9C20 /* Color+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0E90137124371EDA004E9C20 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0E90137424371EDA004E9C20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E90137624371EDA004E9C20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E90137C24373D77004E9C20 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				0E90136824371ED6004E9C20 /* AppDelegate.swift */,
 				0E90136A24371ED6004E9C20 /* SceneDelegate.swift */,
 				0E90136C24371ED6004E9C20 /* ContentView.swift */,
+				0E90137C24373D77004E9C20 /* Color+Extension.swift */,
 				0E90136E24371EDA004E9C20 /* Assets.xcassets */,
 				0E90137324371EDA004E9C20 /* LaunchScreen.storyboard */,
 				0E90137624371EDA004E9C20 /* Info.plist */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E90136924371ED6004E9C20 /* AppDelegate.swift in Sources */,
+				0E90137D24373D77004E9C20 /* Color+Extension.swift in Sources */,
 				0E90136B24371ED6004E9C20 /* SceneDelegate.swift in Sources */,
 				0E90136D24371ED6004E9C20 /* ContentView.swift in Sources */,
 			);
