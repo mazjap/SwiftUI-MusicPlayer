@@ -15,4 +15,7 @@ extension Color {
     static let buttonBackgroundColor = Color("ButtonBackground")
     static let playButtonLightColor = Color("PlayDark")
     static let playButtonDarkColor = Color("PlayLight")
+    static let pauseButtonLightColor = Color("PauseDark")
+    static let pauseButtonDarkColor = Color("PauseLight")
+    static let trackYellowColor = Color("TrackYellow")
 }

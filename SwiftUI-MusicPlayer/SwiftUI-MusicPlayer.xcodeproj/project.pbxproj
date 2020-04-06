@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E008E3F2438E906008DAAEC /* APIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E008E3E2438E906008DAAEC /* APIController.swift */; };
+		0E1298F92437C7260021ABD8 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1298F82437C7260021ABD8 /* HostingController.swift */; };
+		0E1298FB2437DB320021ABD8 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1298FA2437DB320021ABD8 /* Song.swift */; };
 		0E90136924371ED6004E9C20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E90136824371ED6004E9C20 /* AppDelegate.swift */; };
 		0E90136B24371ED6004E9C20 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E90136A24371ED6004E9C20 /* SceneDelegate.swift */; };
 		0E90136D24371ED6004E9C20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E90136C24371ED6004E9C20 /* ContentView.swift */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E008E3E2438E906008DAAEC /* APIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIController.swift; sourceTree = "<group>"; };
+		0E1298F82437C7260021ABD8 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		0E1298FA2437DB320021ABD8 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 		0E90136524371ED6004E9C20 /* SwiftUI-MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-MusicPlayer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E90136824371ED6004E9C20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E90136A24371ED6004E9C20 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +67,9 @@
 				0E90136824371ED6004E9C20 /* AppDelegate.swift */,
 				0E90136A24371ED6004E9C20 /* SceneDelegate.swift */,
 				0E90136C24371ED6004E9C20 /* ContentView.swift */,
+				0E008E3E2438E906008DAAEC /* APIController.swift */,
+				0E1298FA2437DB320021ABD8 /* Song.swift */,
+				0E1298F82437C7260021ABD8 /* HostingController.swift */,
 				0E90137C24373D77004E9C20 /* Color+Extension.swift */,
 				0E90136E24371EDA004E9C20 /* Assets.xcassets */,
 				0E90137324371EDA004E9C20 /* LaunchScreen.storyboard */,
@@ -149,6 +158,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E008E3F2438E906008DAAEC /* APIController.swift in Sources */,
+				0E1298FB2437DB320021ABD8 /* Song.swift in Sources */,
+				0E1298F92437C7260021ABD8 /* HostingController.swift in Sources */,
 				0E90136924371ED6004E9C20 /* AppDelegate.swift in Sources */,
 				0E90137D24373D77004E9C20 /* Color+Extension.swift in Sources */,
 				0E90136B24371ED6004E9C20 /* SceneDelegate.swift in Sources */,
@@ -293,6 +305,7 @@
 				DEVELOPMENT_TEAM = HFR8F4BT7E;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "SwiftUI-MusicPlayer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,7 +313,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mazjap.SwiftUI-MusicPlayer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -313,6 +326,7 @@
 				DEVELOPMENT_TEAM = HFR8F4BT7E;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "SwiftUI-MusicPlayer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,7 +334,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mazjap.SwiftUI-MusicPlayer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
